@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+	string str2("abab");
+	cout << str2 << endl;
+	vector<int> next(-1,str2.size());
+	return 0;
+}
